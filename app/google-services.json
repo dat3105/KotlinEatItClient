@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106673581878",
+    "firebase_url": "https://kotlineatitv2client-d9dd6.firebaseio.com",
+    "project_id": "kotlineatitv2client-d9dd6",
+    "storage_bucket": "kotlineatitv2client-d9dd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106673581878:android:b4c7579b043ad169d90d97",
+        "android_client_info": {
+          "package_name": "com.example.kotlineatitv2client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106673581878-nm2639f7s7lt4hl0hbdtmfs4m0i7dkuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Bal9JFGSmBtPgmOf9x2sWmY1A4K5F2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106673581878-nm2639f7s7lt4hl0hbdtmfs4m0i7dkuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
