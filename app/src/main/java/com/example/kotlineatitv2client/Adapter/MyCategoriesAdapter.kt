@@ -23,6 +23,7 @@ RecyclerView.Adapter<MyCategoriesAdapter.MyViewHolder>(){
         View.OnClickListener {
         var category_name: TextView?=null
         var category_image:ImageView?=null
+
         internal var listener:IRecyclerItemClickListener?=null
 
         fun setListener(listener: IRecyclerItemClickListener)

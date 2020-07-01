@@ -63,7 +63,7 @@ RecyclerView.Adapter<MyCartAdapter.MyViewHolder>(){
         holder.txt_food_name.text = StringBuilder(cartItems[position].foodName!!)
         holder.number_button.number = cartItems[position].foodQuantity.toString()
 
-        holder.number_button.setOnValueChangeListener{view,oldValue,newValue ->
+        holder.number_button.setOnValueChangeListener{ _, _, newValue ->
             cartItems[position].foodQuantity = newValue
             EventBus.getDefault().postSticky(
                 UpdateItemInCart(cartItems[position])
